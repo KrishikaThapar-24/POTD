@@ -1,3 +1,6 @@
+//1 feb 2025
+//3151. Special Array I
+
 class Solution {
 public:
     bool isArraySpecial(vector<int>& nums) {
