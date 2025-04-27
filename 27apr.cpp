@@ -1,3 +1,4 @@
+//27 april 2025 leetcode 3392
 class Solution {
 public:
     int countSubarrays(vector<int>& nums) {
