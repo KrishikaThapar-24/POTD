@@ -13,14 +13,12 @@ public:
         while(j < n) {
             sum += nums[j];
 
-            while(i <= j && sum * (j - i + 1) >= k) { //shrink the window
+            while(i <= j && sum * (j - i + 1) >= k) { 
                 sum -= nums[i];
                 i++;
             }
 
-            //i...j
-            //i+1...j
-            //i+2...j
+           
             result += (j-i+1);
             j++;
         }
