@@ -1,3 +1,6 @@
+//29 April 2025
+//ghar vali silding window problem
+
 class Solution {
 public:
     long long countSubarrays(vector<int>& nums, int k) {
